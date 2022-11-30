@@ -194,13 +194,6 @@ main{
 	max-width: 100%;
 	max-height: 250px;	
   }
-  .review__name{
-
-  }
-  .review__comment{
-
-	
-  }
 .promo-2{
 	margin-top:15px;
 	}
@@ -347,8 +340,13 @@ main{
 	border-style: solid;
 	border-radius: 20px;
 	border-color: red;
-
+	text-decoration:none;
+	color:black
 }
+.order-button:visited{
+	color:black;
+}
+
 @keyframes animation {
 	0%   {color:red }
   25%  {color:yellow }
